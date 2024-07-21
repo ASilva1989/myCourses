@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/00 - geral/css/style-geral.css">
+    <link rel="stylesheet" href="/00 - geral/css/style-home.css">
+    
+    <title>Curso de HTML e CSS</title>
+</head>
+<body>  
+    
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Cursos de Tecnologias</h1>
+    </header>
+
+    <!-- Container Principal -->
+    <div class="container">
+
+        <!-- Menu Lateral -->
+        <nav>
+            
+            <!-- H2 do Menu Lateral -->
+            <h2>Módulos</h2>
+
+            <!-- Lista de Ancora -->
+            <ul>
+                <li class="module active">
+                    <a href="#modulo1" data-module="1">HTML5 e CSS</html></a>
+                </li>
+                <li class="module">
+                    <a href="#modulo2" data-module="2">JavaScript</a>
+                </li>
+                <li class="module">
+                    <a href="#modulo3" data-module="3">Git e GitHub</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <main class="main-home">
+            
+            <!-- HTML5 e CSS3 -->
+            <div id="modulo1" class="modulo">
+                
+                <!-- Módulo 01 -->
+                <h2 class="module-title">Módulo 1 - Primeiros Passos HTML+CSS</h2>
+
+                <p class="p-information">Conceitos básicos, preparação do ambiente, Semântica do HTML5, textos, títulos, ligações, multimpidia, estilos</p>
+                
+                <!-- Capitulo 01 -->
+                <div class="capitulo">
+                    <h3 class="chapter-title">Capítulo 1</h3>
+                    <ul class="lessons">
+                        <li><a class="lesson-link" href="/01 - html-css/module01/chapter01/class00/class00.html" target="_blank">Aula 00 - O que vamos aprender neste módulo</a></li>
+                        <li><a class="lesson-link" href="/01 - html-css/module01/chapter01/class01/class01.html" target="_blank">Aula 01 - Precisamos fazer um acordo</a></li>
+                        <li><a class="lesson-link" href="/01 - html-css/module01/chapter01/class02/class02.html" target="_blank">Aula 02 - Será que este curso é para mim</a></li>
+                        <li><a class="lesson-link" href="/01 - html-css/module01/chapter01/class03/class03.html" target="_blank">Aula 03 - Melhores livros para aprender HTML e CSS</a></li>
+                        <li><a class="lesson-link" href="/01 - html-css/module01/chapter01/class04/class04.html" target="_blank">Aula 04 - Como a internet chega na minha casa</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Capítulo 02-->
+                <div class="capitulo">
+                    <h3 class="chapter-title">Capítulo 2</h3>
+                    <ul class="lessons">
+                        <li><a class="lesson-link" href="/01 - html-css/module01/chapter02/class01/class01.html" target="_blank">Aula 01 - Como a internet funciona</a></li>
+                        <li><a class="lesson-link" href="/01 - html-css/module01/chapter02/class02/class02.html" target="_blank">Aula 02 - O que é dominio e hospedagem</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+            
+            <!-- JavaScript -->
+            <div id="modulo2" class="modulo" style="display: none;">
+
+                <!-- Introdução ao curso-->
+                <h2 class="module-title">Introdução ao Curso JavaScript</h2>
+
+                <p class="p-information">6 Módulos, 17 Aulas, 8 exercícios, 31 vídeos</p>
+
+                <div class="capitulo">
+
+                    <h3 class="chapter-title">Introdução</h3>
+                    <ul class="lessons">
+                        <li><a href="/02 - javascript/Introduction/class01/class01.html" class="lesson-link">Aula 01 - Introdução - JavaScript Moderno</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- GIT E GITHUB -->
+            <div id="modulo3" class="modulo" style="display: none;">
+
+                <!-- Introdução ao curso-->
+                <h2 class="module-title">Módulo 01</h2>
+
+                <p class="p-information">O que é Git? O que é GitHub? O que é VCS? O que é controle de versão? O que é versionamento de software?</p>
+
+                <div class="capitulo">
+
+                    <h3 class="chapter-title">Capítulo 01</h3>
+                    <ul class="lessons">
+                        <li><a href="/03 - git-github/chapter01/class01/class01.html" class="lesson-link">Aula 01 - O que é git? O que é Versionamento?</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            
+
+        </main>
+    </div>
+
+    <!-- Chamando o JavaScript -->
+    <script src="/00 - geral/js/script.js"></script>
+</body>
+</html>

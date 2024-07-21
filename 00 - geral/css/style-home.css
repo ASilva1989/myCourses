@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('/html-css/css/style-geral.css');
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Container principal para navegação lateral e conteúdo */
+.container {
+    display: flex;
+    margin-top: 76px;
+    height: calc(100vh - 76px);
+}
+
+/* Estilo para o menu lateral */
+nav {
+    width: 200px;
+    background-color: var(--cor03);
+    display: flex;
+    flex-direction: column;
+    top: 0; /* Define a partir de onde o menu lateral deve ser fixo */
+}
+
+nav > h2 {
+    font-family: var(--font-secundaria);
+    color: white;
+    padding: 0.3em;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.494);
+}
+
+.module > a {
+    width: 100%; /* Largura total dos links */
+    text-decoration: none;
+    color: white;
+    padding: 1.0em;
+    display: flex;
+    gap: 20px;
+}
+
+.module > a:hover {
+    background-color: var(--cor04);
+}
+
+/* Estilo para o conteúdo principal */
+main.main-home {
+    flex: 1;
+    padding: 0em 0.8em;
+    overflow: auto;
+}
+
+.module-title {
+    padding: 0.5em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.p-information {
+    font-family: var(--font-secundaria);
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor02));
+    color: var(--cor00);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.0em;
+}
+
+.active {
+    background-color: var(--cor04);
+}
+
+.capitulo {
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.lessons {
+    list-style-position: inside;
+    line-height: 30px;
+    padding: 10px;
+    list-style: none;
+}
+
+.lesson-link {
+    text-decoration: none;
+}
+
+.lesson-link:hover {
+    text-decoration: underline;
+}
